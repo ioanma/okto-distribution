@@ -7,6 +7,7 @@ distribution:
   name: Okto, a Drupal 8 distribution.
 
 dependencies:
+  # core
   - node
   - history
   - block
@@ -41,7 +42,24 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+  # contrib modules
+  - entity
+  - libraries
+  - config_update
+  - ctools
+  - ctools_block
+  - ctools_views
+  - token
+  - field_group
+  - features
+  - linkit
+
+  # Admin contrib modules.
+  - diff
 
 themes:
+  # Contrib themes.
+  - adminimal_theme
+  - bootstrap
   - bartik
   - seven
