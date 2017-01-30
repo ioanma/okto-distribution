@@ -47,8 +47,6 @@ dependencies:
   - libraries
   - config_update
   - ctools
-  - ctools_block
-  - ctools_views
   - token
   - field_group
   - features
@@ -61,4 +59,3 @@ themes:
   # Contrib themes.
   - adminimal_theme
   - bartik
-  
