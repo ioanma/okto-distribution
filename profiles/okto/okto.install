@@ -15,4 +15,10 @@ function okto_install() {
   // First, do everything in standard profile.
   include_once DRUPAL_ROOT . '/core/profiles/standard/standard.install';
   standard_install();
+  
+  // Set bartik as default theme.
+  \Drupal::configFactory()
+    ->getEditable('system.theme')
+    ->set('default', 'bartik')
+    ->save();
 }
