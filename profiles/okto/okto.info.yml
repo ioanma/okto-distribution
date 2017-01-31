@@ -42,8 +42,10 @@ dependencies:
   - views_ui
   - tour
   - automated_cron
+
   # contrib modules
   - entity
+  - inline_entity_form
   - libraries
   - config_update
   - ctools
@@ -51,9 +53,14 @@ dependencies:
   - field_group
   - features
   - linkit
+  - menu_block
 
   # Admin contrib modules.
+  - admin_toolbar
   - diff
+
+  # Development contrib modules.
+  - devel
 
 themes:
   # Contrib themes.
